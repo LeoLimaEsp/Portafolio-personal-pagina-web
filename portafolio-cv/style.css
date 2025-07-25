@@ -7,6 +7,7 @@
     --third-color:#501464;
     --thir-alpha-color: rgba(80, 20, 100, 0.75);
     --white-color:#FFFFFF;
+    --gray-color:#eeeeee;
     --gray-light-color:#F3F3F3;
     --gray-color: #CCCCCC;
     --gray-dark-color:#666666;
@@ -807,7 +808,7 @@ footer  a{
     }
 }
 
-@media screen (min-device-width: 220px) and (max-device-width: 480px)
+@media screen and (min-device-width: 220px) and (max-device-width: 480px)
 {
     .hero-image-phone{
         background-image: var(--hero-image-phone);
